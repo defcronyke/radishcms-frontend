@@ -8,19 +8,25 @@ import {MainComponent} from './main';
 import {HeaderComponent} from './header';
 import {TitleComponent} from './title';
 import {FooterComponent} from './footer';
+import {RadishCMSSetupComponent} from './radishcms/setup';
+import {RadishCMSMainComponent} from './radishcms/main';
+// import {Api} from './radishcms/api';
 
 @NgModule({
   imports: [
     BrowserModule,
     routing,
     TechsModule
+    // Api
   ],
   declarations: [
     RootComponent,
     MainComponent,
     HeaderComponent,
     TitleComponent,
-    FooterComponent
+    FooterComponent,
+    RadishCMSSetupComponent,
+    RadishCMSMainComponent
   ],
   bootstrap: [RootComponent]
 })
